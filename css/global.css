@@ -1,0 +1,38 @@
+:root{
+    --main-color:rgb(255, 48, 91);
+    
+}
+body{
+   font-family: "Roboto", sans-serif;
+   background-color: rgb(21, 21, 21) ;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+section{
+    padding-block: 40px;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+.title{
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    color: white;
+    margin-bottom: 35px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Exo 2", sans-serif;
+}

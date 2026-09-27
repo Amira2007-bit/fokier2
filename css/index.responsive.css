@@ -1,0 +1,250 @@
+/* 350 */
+@media (max-width: 1300px) {
+    nav .container .logo{
+        width:10%;
+        
+    }
+    nav .container .links ul{
+        /* display: none; */
+        position: absolute;
+        background-color: rgb(51,51,51);
+        bottom: -10px;
+        left: 50%;
+        width: 80%;
+        height: 0;
+        transform: translate(-50%,100%);
+        flex-direction: column;
+        text-align: center;
+        border-radius: 15px;
+        padding: 0px 0px;
+        row-gap: 20px;
+        transition-duration: 1s;
+        overflow: hidden;
+    }
+    nav .container .burger:focus+ul{
+        height: 255.2px;
+        padding: 20px 0px;
+        /* display: flex; */
+    }
+    nav .container .links .burger{
+        width: 50px;
+        height: 30px;
+        background-color: transparent;
+        border: 1px solid var(--main-color);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    nav .container .burger span{
+        display: block;
+        width: 60%;
+        height: 2px;
+        background-color: var(--main-color);
+    }
+    header .content  h4{
+        font-size: 19px;
+}
+    header .content h1{
+        font-size: 40px;
+}
+    header .content p{
+        font-size: 16px;
+}   
+    #About .container{
+        flex-wrap: wrap;
+    }
+    #About .container .part{
+        width: 100%;
+    }
+    #About .container .part1{
+        margin-bottom: 50px;
+    }
+    #About .container .part1 .frame{
+        width: 280px;
+    }
+    #About .container .part2 .info .col{
+        flex-basis: 100%;
+
+    }
+    #About .container .part2 .button a{
+        padding: 15px 15px;
+    }
+
+    #Services .content .box{
+        width: 100%;
+}
+    #Services .content .box .item{
+        margin-bottom: 30px;
+    }
+    #Portfolio .content .box{
+        width: 100%;
+    }
+     #Portfolio .content .box .layout h3{
+        font-size: 14px;
+     }
+    #Portfolio .content .box .layout a{
+        font-size: 12px;
+    }
+    #Blog .content .box{
+        width: 100%;
+    }
+    #Blog .content .box:not(:last-child){
+        margin-bottom: 20px;
+    }
+    #Blog .content .box .item{
+        width: initial;
+    }
+    #ContactUs form .box:nth-of-type(1),
+    #ContactUs form .box:nth-of-type(2){
+    width: 100%;
+    }
+    #ContactUs form .box:nth-of-type(1) .item,
+    #ContactUs form .box:nth-of-type(2) .item,
+    #ContactuUs form .box .item{
+        margin: 0%;
+    }
+    #ContactUs form button{
+        width: 100%;
+    }
+}
+/* 450 */
+@media (min-width: 371px) and (max-width: 1300px) {
+    nav .container .logo{
+        width: 10%;
+        
+    }
+    header .content  h4{
+        font-size: 27px;
+}
+    header .content h1{
+        font-size: 50px;
+}
+    header .content p{
+        font-size: 22px;
+}
+    #Services .content .box{
+        width: 100%;
+}
+    #Services .content .box:not(:last-child){
+        margin-bottom: 30px;
+}
+    #Services .content .box .item{
+        width: 280px;
+        margin: auto;
+}
+}
+/* 650 */
+@media (min-width: 577px) and (max-width: 1300px) {
+    nav .container .logo{
+        width: 10%;
+        
+    }
+    header .content  h4{
+        font-size: 32px;
+}
+    header .content h1{
+        font-size: 60px;
+}
+    header .content p{
+        font-size: 27px;
+}
+    #About .container .part2 .info .col{
+        flex-basis: 50%;
+    }
+    #Services .content .box{
+        width: 50%;
+}
+    #Services .content .box .item{
+        width:initial;
+        margin: 0%;
+        margin-inline: 10px;
+}
+    #Portfolio .content .box {
+        width: 50%;
+        margin: auto;
+    }
+    #Blog .content .box{
+        width: 50%;
+    }
+    #Blog .content .box .item{
+        width: initial;
+        margin: 0px 10px;
+    }
+    #Blog .content .box .item  .body h4{
+        font-size: 18px;
+    }
+    #Portfolio .content .box{
+        margin-bottom: 20px;
+    }
+}
+/* 850 */
+@media (min-width: 769px) and (max-width: 1300px) {
+    nav .container .logo{
+        width: 8%;
+        
+    }
+    header .content  h4{
+        font-size: 36px;
+}
+    header .content h1{
+        font-size: 67px;
+}
+    header .content p{
+        font-size: 30px;
+}
+    #About .container .part{
+        width: 50%;
+    }
+    #About .container .part2 .info .col h6{
+        font-size:12px;
+    }
+    #About .container .part2 .info .col p{
+        font-size:12px ;
+    }
+    #Portfolio .content .box {
+        width: 33.33%;
+    }
+    #Blog .content .box .item{
+        width: initial;
+    }
+    #ContactUs form .box:nth-of-type(1),
+    #ContactUs form .box:nth-of-type(2){
+        width: 50%;
+    }
+    #ContactUs form .box:nth-of-type(1) .item{
+        margin-right: 5px;
+    }
+    #ContactUs form .box:nth-of-type(2) .item{
+        margin-left: 5px;
+    }
+}
+/* 1050 */
+@media (min-width: 992px) and (max-width: 1300px) {
+    nav .container .logo{
+        width: 6%;
+        
+    }
+    header .content  h4{
+        font-size: 40px;
+    }
+    header .content h1{
+        font-size: 70px;
+    }
+    header .content p{
+        font-size: 32px;
+    }
+    #Blog .content .box {
+        width: 33.33%;
+    }
+    #Blog .content .box .item{
+        width: initial;
+    }
+    #Services .content .box{
+        width: 25%;
+    }
+    #Services .content .box .item h5{
+        font-size: 17px;
+    }
+}
